@@ -16,6 +16,7 @@ public class SkillService {
 	public Skill saveSkill(Skill skill)
 	{
 		skillRepo.save(skill);
+		System.out.println("skills service is working");
 		return skill;
 	}
 	
