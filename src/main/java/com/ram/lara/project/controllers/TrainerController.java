@@ -37,6 +37,7 @@ public class TrainerController {
 	{
 		System.out.println("adding some lines for check git");
 		System.out.println("checking 2nd time");
+		System.out.println("checking 3rd time git working");
 		return new MyResponse("success");
 		
 	}
