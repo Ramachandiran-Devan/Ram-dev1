@@ -35,7 +35,9 @@ public class TrainerController {
 	@GetMapping
 	public MyResponse login()
 	{
+		System.out.println("adding some lines for check git");
 		return new MyResponse("success");
+		
 	}
 	@GetMapping("/get/{id}")
 	private Trainer getTrainer(@PathVariable int id)
